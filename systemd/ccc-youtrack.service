@@ -1,0 +1,13 @@
+[Unit]
+Description=carbon.cc youtrack
+After=docker.service
+Requires=docker.service
+
+[Service]
+TimeoutStartSec=0
+Restart=always
+ExecStart=/opt/ccc/bin/ccc-youtrack-start
+ExecStop=/opt/ccc/bin/ccc-youtrack-stop
+
+[Install]
+WantedBy=multi-user.target
