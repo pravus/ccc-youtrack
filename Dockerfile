@@ -1,1 +1,1 @@
-FROM docker.io/jetbrains/youtrack:2022.1.46592
+FROM docker.io/jetbrains/youtrack:2023.1.9570

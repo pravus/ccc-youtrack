@@ -11,4 +11,4 @@ exec /usr/bin/docker run "$@" \
   --volume /opt/ccc/var/youtrack:/opt/youtrack/data \
   --volume /opt/ccc/log/youtrack:/opt/youtrack/logs \
   --volume /opt/ccc/mem/youtrack:/opt/youtrack/backups \
-  ccc-youtrack:2022.1.46592
+  ccc-youtrack:2023.1.9570
