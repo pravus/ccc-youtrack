@@ -6,7 +6,6 @@ exec /usr/bin/docker run "$@" \
   --rm \
   --name ccc-youtrack \
   --network www \
-  --publish 127.0.0.1:8100:8080 \
   --volume /opt/ccc/etc/youtrack:/opt/youtrack/conf \
   --volume /opt/ccc/var/youtrack:/opt/youtrack/data \
   --volume /opt/ccc/log/youtrack:/opt/youtrack/logs \
